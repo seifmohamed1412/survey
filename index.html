@@ -1,0 +1,50 @@
+<body>
+   <header>
+    <h1 id='title'>Survey Form</h1>
+    <p id='description'>Thank you for taking the time to help us improve the platform</p>
+   </header>
+    <main>
+      <form id='survey-form'>
+        <label for='name' id='name-label'>Name  
+          <input id='name' type='text' required placeholder='Enter your name'>
+        </label>
+        <label for='email' id='email-label'>Email   
+          <input id='email' type='email' required placeholder='Enter your email'>
+        </label>
+        <label for='number' id='number-label'>Age  
+          <input id='number' type='number' min='13' max='100' placeholder='Enter your age'>
+        </label>
+        <label for='dropdown'>What is your current role?
+          <select id='dropdown'>
+            <option>Select role</option>
+            <option>Student</option>
+            <option>Full Time Job</option>
+            <option>Full Time Learner</option>
+            <option>Prefer not to say</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <p>Would you recommend our website?</p>
+        <label for='radio1' class='button-label'>
+          <input type='radio' name='radio' value='yes' id='radio1'>Yes
+        </label>
+        <label for='radio2' class='button-label'>
+          <input type='radio' name='radio' value='no' id='radio2'>No
+        </label>
+        <p>What is your favorite feature in our website?</p>
+        <label for='checkbox1' class='button-label'>
+          <input type='checkbox' value='challenges' id='checkbox1'>Challenges
+        </label>
+        <label for='checkbox2' class='button-label'>
+          <input type='checkbox' value='projects' id='checkbox2'>Projects
+        </label>
+        <label for='checkbox3' class='button-label'>
+          <input type='checkbox' value='community' id='checkbox3'>Community
+        </label>
+        <label for='textarea'>Any comments or suggestions?
+        <textarea id='textarea' placeholder='Type your comments or suggestions'></textarea>
+        </label>
+        <button id='submit'>Submit</button>
+      </form>
+    </main>
+</body>
